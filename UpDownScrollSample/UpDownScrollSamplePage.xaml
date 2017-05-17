@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:UpDownScrollSample" x:Class="UpDownScrollSample.UpDownScrollSamplePage">
+	<StackLayout>
+		<Label x:Name="Direction" />
+		<ListView ItemsSource="{Binding Items}" ItemAppearing="Handle_ItemAppearing" />
+	</StackLayout>
+</ContentPage>
